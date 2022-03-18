@@ -70,3 +70,9 @@ Some common scenarios might be:
 * You are NOT modifying original/raw data.
 * Saving will happen automatically, but it's important to [properly shut down OpenRefine to ensure this](https://github.com/OpenRefine/OpenRefine/wiki/Installation-Instructions).
 * Files are saved locally such that if you are working on two computers you will have to export/import files/projects.
+
+## About the Data
+
+The data we will be working with in this workshop is a collection of journals, containing the attributes Title, Authors, DOI, URL, Date, Language, Subjects, ISSNs, Publisher, Citation, and Licence. 
+
+This data was provided by Directory of Open Access Journals (DOAJ), an independent, non-profit organisation managed by [Infrastructure Services for Open Access C.I.C.](https://is4oa.org/) (IS4OA). You may read more about DOAJ on [their page](https://doaj.org/about/#our-mission). The data we are using here is a subset from DOAJ's independent index of peer-reviewed, open access journals covering all areas of science, technology, medicine, social sciences, arts and humanities.
