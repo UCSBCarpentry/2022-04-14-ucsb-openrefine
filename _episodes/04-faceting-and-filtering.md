@@ -19,7 +19,7 @@ keypoints:
 ---
 
 ## Facets
-Facets are one of the most useful features of OpenRefine and can help in both getting an overview of the data and to improve the consistency of the data.
+Can you guess why OpenRefine logo is a diamond? That is because facets are the most useful features of this tool, which can help in both getting an overview of the data and to improve the consistency of the data.
 
 A 'Facet' groups all the values that appear in a column, and then allows you to filter the data by these values and edit values across many records at the same time.
 
