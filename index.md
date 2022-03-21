@@ -38,10 +38,6 @@ And run 'make workshop-check' *before* committing to make sure that changes are 
 {% endcomment %}
 
 
-<h2><strong>Registration for this workshop begins on Monday, March 21 8:00AM PST</strong></h2>
-<a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=OpenRefine+&iso=20220321T08&p1=1050">Check what time registration opens in your time zones</a>
-
-
 
 {% comment %}
 Check DC curriculum
