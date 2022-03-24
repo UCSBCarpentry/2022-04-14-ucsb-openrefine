@@ -141,17 +141,16 @@ Splitting on a comma will not work with Authors because the names may include co
 
 ## Importing a second dataset
 
-Our sample dataset is small enough that we can see trends directly. It's important
+Our sample dataset is small enough that we can see trends directly. It's now important
 to get comfortable using larger datasets so that you learn to trust your tools and
-your ability to evaluate a dataset. This exercise will give us a second, more
-realistic project to work with.
+your ability to evaluate a dataset. We will now be working with a larger dataset of the same content from DOAJ. This exercise will hopefully give us a second, more realistic project to work with. We also want to keep the current project, doaj article sample csv, open. 
 
 
 
 * If you have not already, download
 [this dataset `DOAJ_big.csv`](https://drive.google.com/file/d/13gOr7cP9ZzYL4DCTI012ToG9AcEzFm4r/view?usp=sharing), 
 and save it in the same directory as the other data file (DOAJ_small.csv).
-* Return to the 'Create Project' menu (click the Diamond).
+* Select to the 'Open...' option on the top right. This will navigate you to a new tab.
 * 'Choose Files' and navigate to the DOAJ_big.csv file.
 * Use the default options to create a new project.
 
