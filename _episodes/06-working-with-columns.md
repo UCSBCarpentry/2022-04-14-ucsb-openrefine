@@ -21,7 +21,7 @@ You can then drag and drop column names to re-order the columns, or remove colum
 
 ## Renaming columns
 
-You can rename a column by opening the drop-down menu at the top of the column that you would like to rename, and choosing 'Edit column' > 'Rename this column'. You will then be prompted to enter the new column name. 
+You can rename a column by opening the drop-down menu at the top of the column that you would like to rename, and choosing 'Edit column' > 'Rename this column'. You will then be prompted to enter the new column name.
 
 ## Sorting data
 You can sort data in OpenRefine by clicking on the drop-down menu for the column you want to sort on, and choosing `Sort`.
@@ -34,10 +34,10 @@ You can sort on multiple columns at the same time by adding another sorted colum
 
 > ## Organizing for more cleanup
 >
-> Let's get rid of a column we don't need ('Archiving information URL'), push the 
-> remaining two URL columns to the right, and re-arrange some other columns. 
+> Let's get rid of a column we don't need ('Archiving information URL'), push the
+> remaining two URL columns to the right, and re-arrange some other columns.
 > This will help us work a little
-> faster tomorrow. 
+> faster tomorrow.
 >
 > Aim for this order:
 >
@@ -50,7 +50,10 @@ You can sort on multiple columns at the same time by adding another sorted colum
 >
 > > ## Solution
 > >
-> > All the functions you need are in the 'Edit column' menu
+> > To reorder a column, use the dropdown menu to see the list of tools under `Edit column`. All the functions you need are in the 'Edit column' menu.
 > > ![The Edit columns menu](../assets/img/edit_columns.png)
+> > 1. Remove 'Archiving information URL' by selecting `Remove this column`.
+> > 2. Move 'Journal URL' and 'Download statistics information URL' by selecting `Move column to end`.
+> > 3. Sort columns in the order suggested by using `Move column left` or `Move column right`.
 > {: .solution}
 {: .challenge}
