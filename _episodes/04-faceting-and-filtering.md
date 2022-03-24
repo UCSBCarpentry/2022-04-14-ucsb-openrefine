@@ -63,9 +63,9 @@ As with Facets, the Filter options appear in the left hand panel in OpenRefine. 
 You can also use [regular expressions](https://librarycarpentry.github.io/lc-data-intro/01-regular-expressions/) in the filter.
 
 ## Working with filtered data
-It is very important to note that when you have filtered the data displayed in OpenRefine, any operations you carry out will apply only to the rows that match the filter - that is the data currently being displayed. To confirm you are working with the data you intended to select, check the number of matching records displayed above the data table. 
+It is very important to note that when you have filtered the data displayed in OpenRefine, any operations you carry out will apply only to the rows that match the filter - that is the data currently being displayed. To confirm you are working with the data you intended to select, check the number of matching records displayed above the data table.
 
-## Other types of Facet 
+## Other types of Facet
 As well as 'Text facets' Refine also supports a range of other types of facet. These include:
 
 * Numeric facets
@@ -120,7 +120,7 @@ The list of values in the facet will update as you make edits.
 {: .challenge}
 
 >## Inspecting your new dataset
-> 
+>
 > Answer the following questions about your new, larger, dataset:
 >* How many records are in the dataset?
 >* How many columns are in the dataset?
@@ -128,11 +128,11 @@ The list of values in the facet will update as you make edits.
 >* What is the most common amount for an Author Publishing Charge?
 >
 >>## Solution
->> 1. Open your 'Large DOAJ dump' project
+>> 1. Open or navigate to your 'DOAJ big csv' project
 >> 2. The number of records is displayed prominently on the project's main screen
 >>  ![Number of records](../assets/img/num-records.png)
 >> 3. This is actually a bit of a trick question. Move a column to the end to get a count of columns.
->> 4. If you sort your records by title, then go to the LAST page of records, you will either see non-Latin characters or some random nonsense.
+>> 4. If you sort your records by title, then go to the LAST page of records, you will see non-Latin characters.
 >> 5. Create a text facet, then sort by count. The most common APC amount is 1000. But 1000 what?
 >{: .solution}
 {: .challenge}
