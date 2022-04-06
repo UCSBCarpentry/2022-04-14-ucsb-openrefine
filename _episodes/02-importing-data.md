@@ -30,7 +30,7 @@ keypoints:
 > To import the data for the exercise below, follow the instructions in [Setup](https://librarycarpentry.github.io/lc-open-refine/setup.html) to download the data and run OpenRefine. **If OpenRefine does not open in a browser window, open your browser and type the address <http://127.0.0.1:3333/> to take you to the OpenRefine interface.**
 > 
 >1. Once OpenRefine is launched in your browser, click `Create Project` from the left hand menu and select `Get data from This Computer`
->2. Click `Choose Files` (or 'Browse', depending on your setup) and locate the file `DOAJ_big.csv` that you have downloaded. 
+>2. Click `Choose Files` (or 'Browse', depending on your setup) and locate the file **`DOAJ_small.csv`** that you have downloaded. 
 >3. Click `Next >>` - the next screen (see below) gives you options to ensure the data is imported into OpenRefine correctly. The options vary depending on the type of data you are importing.
 >4. Click in the Character encoding box and set it to `UTF-8`. This ensures that OpenRefine correctly interprets the imported data as UTF-8 encoded. If you don’t select this you may find that some special characters (e.g. smart quotation marks) are not displayed correctly.
 >5. Ensure the first row is used to create the column headings by checking the box `Parse next 1 line(s) as column headers`
