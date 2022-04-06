@@ -73,6 +73,6 @@ Some common scenarios might be:
 
 ## About the Data
 
-The data we will be working with in this workshop is a collection of journals, containing the attributes Title, Authors, DOI, URL, Date, Language, Subjects, ISSNs, Publisher, Citation, and Licence. 
+The datasets we will be working with in this workshop is a collection of journals, containing the attributes Title, Authors, DOI, URL, Date, Language, Subjects, ISSNs, Publisher, Citation, and Licence. 
 
-This data was provided by Directory of Open Access Journals (DOAJ), an independent, non-profit organisation managed by [Infrastructure Services for Open Access C.I.C.](https://is4oa.org/) (IS4OA). You may read more about DOAJ on [their page](https://doaj.org/about/#our-mission). The data we are using here is a subset from DOAJ's independent index of peer-reviewed, open access journals covering all areas of science, technology, medicine, social sciences, arts and humanities.
+These datasets were obtained from the [Directory of Open Access Journals (DOAJ)](https://doaj.org/), an independent, non-profit organisation managed by [Infrastructure Services for Open Access C.I.C.](https://is4oa.org/) (IS4OA). You may learn more about DOAJ on [their page](https://doaj.org/about/#our-mission). The datasets we are using here are subsets from DOAJ's independent index of peer-reviewed, open access journals covering all areas of science, technology, medicine, social sciences, arts and humanities.
