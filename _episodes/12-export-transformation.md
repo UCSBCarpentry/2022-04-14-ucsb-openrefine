@@ -38,3 +38,8 @@ Let's practice running these steps on a new dataset. We'll test this on an uncle
 4. Click `Perform operations`. The dataset should now be the same as your other cleaned dataset.
 
 For convenience, we used the same dataset. In reality you could use this process to clean new related datasets from the same source or that keeps being updated for the same project. For example, data that you had collected over different fieldwork periods or data that was collected by different researchers (provided everyone uses the same column headings). 
+
+
+> ## Can you guess what is the function of the `Permalink` next to the Project name (left-hand side)?
+> The `Permalink` allows you to return to a project at a specific view state - that is, with facets and filters applied. The Permalink can help you pick up where you left off if you have to close your project while working with facets and filters. It puts view-specific information directly into the URL: clicking on it will load this current-view URL in the existing tab. You can right-click and copy the Permalink URL to copy the current view state to your clipboard, without refreshing the tab you’re using.  
+{: .callout}
