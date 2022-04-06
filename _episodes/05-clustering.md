@@ -38,7 +38,7 @@ For each cluster, you have the option of 'merging' the values together - that is
 
 >## Challenge: Clean up 2 variables
 >
-> Let's clean up our new, larger DOAJ file.
+> Let's clean up a bit the larger dataset, the `DOAJ_big` file.
 > There are several publishers that appear to be the same organization. Combine them.
 > * How many publishers did you start with? How many are left after cleaning?
 > * You can also eliminate redundant values in the 'Permanent article identifiers' column.
