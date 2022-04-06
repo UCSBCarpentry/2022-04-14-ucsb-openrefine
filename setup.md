@@ -43,9 +43,9 @@ Install the default version available from your distribution. For example, on Ub
 [Chrome](https://www.google.com/chrome/) or [Safari](https://www.apple.com/safari/) instead.
 
 
-### Downloading the data
+### Downloading the datasets
 
-For this workshop we will be using two datasets. You can download the first dataset [doaj-article-sample.csv](https://github.com/LibraryCarpentry/lc-open-refine/raw/gh-pages/data/doaj-article-sample.csv), which is a csv file that will open in a new browser tab. Be sure to right click or control click in order to save the file (NOTE: In Safari, right click and select **download linked file**; in Chrome and Firefox, right click and select **save link as...**). The second dataset is available at: <add link>. Make sure to have them available on your Desktop or on a folder you can easily locate on your computer.
+For this workshop we will be using two datasets. You should download both csv files [DOAJ_big](https://drive.google.com/file/d/13gOr7cP9ZzYL4DCTI012ToG9AcEzFm4r/view?usp=sharing) and [DOAJ_small](https://drive.google.com/file/d/1QdR2veVq6eBDgsw6DFx35nr1ldzCAiLJ/view?usp=sharing) and make sure to have them available on your Desktop or in a directory you can easily locate on your computer.
 
 ### Exiting OpenRefine
 
