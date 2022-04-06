@@ -1,13 +1,18 @@
 ---
-title: "Transformations - Exporting"
-teaching: 5
+title: "Exporting Transformed Data, Saving and Applying Scripts"
+teaching: 10
 exercises: 0
 questions:
 - "How do I export transformed data?"
+- "How do I export transformation scripts?"
+- "How do I apply transformations using scripts?
 objectives:
 - "Explain how to export data in different formats from OpenRefine"
+- "Explain the process of exporting scripts"
+- "Describe how to apply existing scripts to trasnform raw data"
 keypoints:
-- "You can export your data in a variety of formats"
+- "You can export your data in a variety of formats" 
+- "You can reuse scripts for transformation you have performed for related datasets"
 ---
 
 ## Exporting data
@@ -18,7 +23,7 @@ Export formats support include HTML, Excel and comma- and tab-separated value (c
 ## Scripts
 
 As you conduct your data cleaning and preliminary analysis, OpenRefine saves every change you make to the dataset. These 
-changes are saved in a format known as JSON (JavaScript Object Notation). You can export this JSON script and apply it to other data files. If you had 20 files to clean, and they all had the same type of errors (e.g. species name misspellings, leading white spaces), and all
+changes are saved in a format known as JSON (JavaScript Object Notation). You can export this JSON script and apply it to other data files. If you had 20 files to clean, and they all had the same type of errors (e.g., species name misspellings, leading white spaces), and all
 files had the same column names, you could save the JSON script, open a new file to clean in OpenRefine, paste in the script and run it.
 This gives you a quick way to clean all of your related data.
 
@@ -28,8 +33,8 @@ This gives you a quick way to clean all of your related data.
 Let's practice running these steps on a new dataset. We'll test this on an uncleaned version of the dataset we've been working with. 
 
 1. Download an uncleaned version of the dataset: [https://ndownloader.figshare.com/files/7823341](https://ndownloader.figshare.com/files/7823341) or use the version of the raw dataset you saved to your computer.  
-2. Start a new project in OpenRefine with this file and name it something different from your existing project.  
+2. Start a new project in OpenRefine with this file and name it something different from your existing project (e.g., Testing-Transformations) 
 3. Click the `Undo / Redo` tab > `Apply` and paste in the contents of `txt` file with the JSON code. 
 4. Click `Perform operations`. The dataset should now be the same as your other cleaned dataset.
 
-For convenience, we used the same dataset. In reality you could use this process to clean related datasets. For example, data that you had collected over different fieldwork periods or data that was collected by different researchers (provided everyone uses the same column headings). 
+For convenience, we used the same dataset. In reality you could use this process to clean new related datasets from the same source or that keeps being updated for the same project. For example, data that you had collected over different fieldwork periods or data that was collected by different researchers (provided everyone uses the same column headings). 
