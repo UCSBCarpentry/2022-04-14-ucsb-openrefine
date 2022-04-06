@@ -19,13 +19,13 @@ Through facets, filters and clusters OpenRefine offers relatively straightforwar
 
 However, sometimes there will be changes you want to make to the data that cannot be achieved in this way. Such types of changes include:
 
-* Splitting data that is in a single column into multiple columns (e.g. splitting an address into multiple parts)
-* Standardising the format of data in a column without changing the values (e.g. removing punctuation or standardising a date format)
-* Extracting a particular type of data from a longer text string (e.g. finding ISBNs in a bibliographic citation)
+* Splitting data that is in a single column into multiple columns (e.g., splitting an address into multiple parts)
+* Standardising the format of data in a column without changing the values (e.g., removing punctuation or standardising a date format)
+* Extracting a particular type of data from a longer text string (e.g., finding ISBNs in a bibliographic citation)
 
-To support this type of activity OpenRefine supports 'Transformations' which are ways of manipulating data in columns. Transformations are normally written in a special language called 'GREL' (General Refine Expression Language). To some extent GREL expressions are similar to Excel Formula, although they tend to focus on text manipulations rather than numeric functions.
+OpenRefine supports these through `Transformations` which are ways of manipulating data in columns. Transformations are normally written in a special language called `GREL (General Refine Expression Language)`. To some extent GREL expressions are similar to Excel Formula, although they tend to focus on text manipulations rather than numeric functions.
 
-Full documentation for the GREL is available at [https://github.com/OpenRefine/OpenRefine/wiki/General-Refine-Expression-Language](https://github.com/OpenRefine/OpenRefine/wiki/General-Refine-Expression-Language). This tutorial covers only a small subset of the commands available.
+For more information about GREL commands, check this [manual](https://docs.openrefine.org/manual/grel).
 
 ### Common transformations
 OpenRefine features several functions for performing commonly needed transformations to your data. Many of these transformations are intended for data cleaning purposes and can also be done by using regular expressions. Some transformations are used regularly and are accessible directly through menu options, without having to type them directly. To locate these transformations:
@@ -64,7 +64,7 @@ Examples of some of these common transformations are given in the table below:
 >By default, in `OpenRefine` all columns are identified as text. So if you want to create a date facet you will have to first transform those values into 'dates'. 
 >1. Click on the column `Added on Date` dropdown menu, then `Edit Cells>Common Transforms>To Date` (Note that values will be green, demonstrating the sucessfull transformation to the desired data format)
 >2. Now, perform a `Timeline Facet`
->3. Can you spot a time period when there was a large number of journals added to DOAJ?
+>3. Can you spot a time period when there was a large number of journals added to `DOAJ_big`?
 {: .checklist}
 
 >## Challenge
