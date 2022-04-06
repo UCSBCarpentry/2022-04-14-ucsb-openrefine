@@ -1,5 +1,5 @@
 ---
-title: "Exporting Transformed Data, Saving and Applying Scripts"
+title: "Exporting Transformed Data, Saving and Reusing Scripts"
 teaching: 10
 exercises: 0
 questions:
@@ -15,12 +15,12 @@ keypoints:
 - "You can reuse scripts for transformation you have performed for related datasets"
 ---
 
-## Exporting data
+## Exporting Transformed Data
 Once you have finished working with a data set in OpenRefine you may wish to export it. The export options are accessed through the ```Export``` button at the top right of the OpenRefine interface.
 
 Export formats support include HTML, Excel and comma- and tab-separated value (csv and tsv). You can also write a custom export, selecting to export specific fields, adding a header or footer and specifying the exact format.
 
-## Scripts
+## Saving and Reusing Scripts
 
 As you conduct your data cleaning and preliminary analysis, OpenRefine saves every change you make to the dataset. These 
 changes are saved in a format known as JSON (JavaScript Object Notation). You can export this JSON script and apply it to other data files. If you had 20 files to clean, and they all had the same type of errors (e.g., species name misspellings, leading white spaces), and all
