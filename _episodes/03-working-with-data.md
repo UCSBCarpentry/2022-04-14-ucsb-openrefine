@@ -33,15 +33,15 @@ OpenRefine has two modes of viewing data: 'Rows' and 'Records'. At the moment we
 
 ### Splitting Cells
 
-To see how this works in practice we can split author names into separate cells. If you look at the Author column you should be able to see that there are multiple names in each cell separated by the pipe symbol ( \| ).
+To see how this difference between rows and records works in practice we can split author names into separate cells. If you look at the Author column you should be able to see that there are multiple names in each cell separated by the pipe symbol ( \| ).
 
 To work with the author names effectively in OpenRefine, we need to have each name in an individual cell. To split the names into their own cells, we can use a `Split multi-valued cells` function:
 
 * Click the dropdown menu at the top of the Author column
 * Choose `Edit cells->Split multi-valued cells`
-* In the prompt type the ( \| ) symbol and click `OK`
+* In the prompt type the ( \| ) symbol, make sure to check the box "regular expression" and click `OK`
     * Note that the rows are still numbered sequentially
-* Click the `Records` option to change to Records mode
+* Then, click the `Records` option to change to Records mode
     * Note how the numbering has changed - indicating that several rows are related to the same record
 
  ![rows](../assets/img/rows.png)
