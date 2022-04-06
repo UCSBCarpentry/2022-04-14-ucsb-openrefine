@@ -30,7 +30,7 @@ unzipped folder. The location has to be a "local" drive as problems have been re
 from a Network drive.
 * The options "Windows kit with embedded Java" and "Mac kit" include Java as part of the package. You **do not**
 need to install Java if you use one of these kits. This is the preferred method on Windows and Mac systems.
-* On Mac, depending on your privacy settings, you may get a safety warning that will prevent you from opeining OpenRefine. To bypass that, in "System Preferences", click "Security & Privacy", then "click General". Click the lock and enter your password to make changes. Select App Store under the header “Allow apps downloaded from".
+* On Mac, depending on your privacy settings, you may get a safety warning that will prevent you from opening OpenRefine. To bypass that, in "System Preferences", click "Security & Privacy", then "click General". Click the lock and enter your password to make changes. Select App Store under the header “Allow apps downloaded from".
 * On Windows, if you use the traditional "Windows kit" without embedded Java, you will need a 
 "Java Runtime Environment" (JRE) on your system. If you do not already have JRE or JDK installed, 
 you can visit [Adopt OpenJDK](https://adoptopenjdk.net/) or [Oracle Java](https://java.com/en/download/) 
