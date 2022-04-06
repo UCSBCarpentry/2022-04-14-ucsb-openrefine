@@ -16,11 +16,11 @@ keypoints:
 ---
 
 ## Clustering
-The Cluster function groups together similar, but inconsistent values in a given column and lets you merge these inconsistent values into a single value you choose.
+The `Cluster` function groups together similar, but inconsistent values in a given column and gives you the ability to merge these inconsistent values into a single value of your choice.
 
-This is very effective where you have data with minor variations in data values, e.g. names of people, organisations, places, classification terms.
+This is very effective where you have data with minor variations in data values (e.g., names of people, organisations, places, classification terms).
 
-To use the 'Cluster' function, click on the `Edit Cells` menu option in the relevant column and choose `Cluster and edit...`
+To use the `Cluster` function, click on the `Edit Cells` menu option in the relevant column and choose `Cluster and edit...`
 
 The 'Clusters' are created automatically according to an algorithm. OpenRefine supports a number of different clustering algorithms - some experimentation may be required to see which clustering algorithm works best with any particular set of data, and you may find that using different algorithms highlights different clusters.
 
