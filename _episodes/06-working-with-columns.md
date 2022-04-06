@@ -37,7 +37,7 @@ You can sort on multiple columns at the same time by adding another sorted colum
 > Let's get rid of a column we don't need ('Archiving information URL'), push the
 > remaining two URL columns to the right, and re-arrange some other columns.
 > This will help us work a little
-> faster tomorrow.
+> faster.
 >
 > Aim for this order:
 >
