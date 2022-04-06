@@ -11,7 +11,7 @@ You need to install OpenRefine and download a data file to follow this lesson.
 
 OpenRefine is a free, open-source Java application. You can download OpenRefine from 
 [http://openrefine.org/download.html](http://openrefine.org/download.html). 
-This lesson has been tested with all versions of OpenRefine up to the latest tested version, 3.4.1
+This lesson has been tested with all versions of OpenRefine up to the latest tested version, 3.5.2
 
 Packages are available on <https://openrefine.org/download.html> for Windows, macOS, and Linux.
 Please download the latest stable version, choosing the "kit" for your operating system.
@@ -45,7 +45,7 @@ Install the default version available from your distribution. For example, on Ub
 
 ### Downloading the data
 
-You can download [doaj-article-sample.csv](https://github.com/LibraryCarpentry/lc-open-refine/raw/gh-pages/data/doaj-article-sample.csv), which is a csv file that will open in a new browser tab. Be sure to right click or control click in order to save the file (NOTE: In Safari, right click and select **download linked file**; in Chrome and Firefox, right click and select **save link as...**). Make a note of the location (i.e. the folder, your desktop) to which you save the file.
+For this workshop we will be using two datasets. You can download the first dataset [doaj-article-sample.csv](https://github.com/LibraryCarpentry/lc-open-refine/raw/gh-pages/data/doaj-article-sample.csv), which is a csv file that will open in a new browser tab. Be sure to right click or control click in order to save the file (NOTE: In Safari, right click and select **download linked file**; in Chrome and Firefox, right click and select **save link as...**). The second dataset is available at: <add link>. Make sure to have them available on your Desktop or on a folder you can easily locate on your computer.
 
 ### Exiting OpenRefine
 
