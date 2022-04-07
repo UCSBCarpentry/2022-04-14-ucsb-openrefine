@@ -9,7 +9,7 @@ objectives:
 keypoints:
 - "Use the `Create Project` option to import data"
 - "You can control how data imports using options on the import screen"
-- "Several files types may be imported into OpenRefine."
+- "OpenRefine supports various file extensions"
 ---
 
 ## Importing data
@@ -47,4 +47,4 @@ To open an existing project in OpenRefine you can click `Open Project` from the 
 
 ### Going Further
 * Look at the other options on the Import screen - try changing some of these options and see how that changes the Preview and how the data appears after import.
-* Do you have access to JSON or XML data? If so the first stage of the import process will prompt you to select a 'record path' - that is the parts of the file that will form the data rows in the OpenRefine project.
+* Do you have access to [JSON](https://www.w3schools.com/js/js_json_intro.asp) or [XML](https://www.w3schools.com/xml/xml_whatis.asp) data? If so the first stage of the import process will prompt you to select a 'record path' - that is the parts of the file that will form the data rows in the OpenRefine project.
