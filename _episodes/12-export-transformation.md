@@ -1,17 +1,17 @@
 ---
 title: "Exporting Transformed Data, Saving and Reusing Scripts"
 teaching: 10
-exercises: 0
+excercises: 0
 questions:
 - "How do I export transformed data?"
 - "How do I export transformation scripts?"
-- "How do I apply transformations using scripts?
+- "How do I apply transformations using scripts?"
 objectives:
 - "Explain how to export data in different formats from OpenRefine"
 - "Explain the process of exporting scripts"
-- "Describe how to apply existing scripts to trasnform raw data"
+- "Describe how to apply existing scripts to transform raw data"
 keypoints:
-- "You can export your data in a variety of formats" 
+- "You can export your data in a variety of formats"
 - "You can reuse scripts for transformation you have performed for related datasets"
 ---
 
