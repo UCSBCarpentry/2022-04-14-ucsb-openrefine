@@ -28,7 +28,7 @@ For more information on the methods used to create Clusters, explore: [Clusterin
 
 For each cluster, you have the option of 'merging' the values together - that is, replace the various inconsistent values with a single consistent value. By default, OpenRefine uses the most common value in the cluster as the new value, but you can select another value by clicking the value itself, or you can simply type the desired value into the 'New Cell Value' box.
 
->## Use Clustering to clean up author data
+>## Use Clustering to clean up author data (demonstrate with `DOAJ_small`)
 >
 >1. Split out the author names into individual cells using `Edit cells -> Split multi-valued cells`, using the pipe ( \| ) character as the separator
 >2. Choose `Edit cells -> Cluster and edit` from the 'author' column.
@@ -36,7 +36,7 @@ For each cluster, you have the option of 'merging' the values together - that is
 >4. Try changing the clustering method being used - which ones work well?
 {: .challenge}
 
->## Challenge: Clean up 2 variables
+>## Challenge: Clean up 2 variables (`DOAJ_big`)
 >
 > Let's clean up a bit the larger dataset, the `DOAJ_big` file.
 > There are several publishers that appear to be the same organization. Combine them.
