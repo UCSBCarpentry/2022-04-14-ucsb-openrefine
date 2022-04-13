@@ -51,7 +51,7 @@ You can also `invert` the filter to show all records which do not match your sel
 >>1. Create a facet for the 'Licence' column
 >>2. Sort values by `count`
 >>3. What is the most common Licence in the file? Answer: `CC BY`
->>4. How many articles in the file don't have a licence assigned? Answer: **1**
+>>4. How many articles in the file don't have a licence assigned? Answer: **3,014** are blank.
 >{: .solution}
 {: .challenge}
 
@@ -119,7 +119,7 @@ The list of values in the facet will update as you make edits.
 >{: .solution}
 {: .challenge}
 
->## Inspecting your new dataset
+>## Inspecting your new dataset (DOAJ_big)
 >
 > Answer the following questions about your new, larger, dataset:
 >* How many records are in the dataset?
