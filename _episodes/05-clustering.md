@@ -56,22 +56,17 @@ For each cluster, you have the option of 'merging' the values together - that is
 > > 
 > > ### Combine publishers
 > > 
-> > When you start, by performing a text facet you should see 6,983 distinct publishers.
-> > Going through all the choices individually to spot opportunities to reconcile data input can be very tedious. But OpenRefine has a powerful feature to make this task much easier. Click 'Edit cells', then choose 'Cluster and edit', and you will see several publishers that appear to be the same, but with small variations in the way they were recorded. Let's say you have reviewed all the suggestions and agree with them. You may `select all` and then, `merge selected & re-cluster`. After accepting the recommendations, note that the number of choices for publishers went down to 6,844.
+> > By performing a text facet you should see 6,983 distinct publishers. Going through all the choices individually to spot opportunities to reconcile data input can be very tedious. OpenRefine has a powerful feature to make this task much easier. Click 'Edit cells', then choose 'Cluster and edit', and you will see several publishers that appear to be the same, but with variations in the way they were recorded. Let's say you have reviewed all the suggestions and agree with them. You may `select all` and then, `merge selected & re-cluster`. After accepting the recommendations, note that the number of choices for publishers in the dataset went down to 6,844.
 > >
 > {: .solution}
 {: .challenge}
 
 
 >## Shrink this dataset
-> 15,403 records is a pretty good number to work with, but let's 
-> simplify our work and filter this dataset down to just journals
-> published in the United States.
->
-> How many are left?
+> 15,403 records is a pretty good number to work with, but let's simplify our work and filter this dataset down to just journals published in the United States. How many are left?
 >
 > > ## Solution
 > >
-> > After adding a text facet and including only US journals, we have 838 records.
+> > You may perform a text facet, find and include only journals with 'United States' value, however, if performing a `text filter` shpuld save you some time. By filtering results to US cases only, you will have 838 records.
 > {: .solution}
 {: .challenge}
