@@ -14,12 +14,8 @@ keypoints:
 - "The original order of rows in OpenRefine is maintained during a sort until you use the option to Reorder Rows Permanently"
 ---
 
-## Reordering columns
-You can re-order the columns by clicking the drop-down menu at the top of the first column (labelled 'All'), and choosing `Edit columns->Re-order / remove columns …`.
-
-You can then drag and drop column names to re-order the columns, or remove columns completely if they are not required.
-
-## Renaming columns
+## Reordering & Renaming columns
+You can re-order, delete, rename and move columns to the end, beginning left or right by clicking the drop-down menu, and choosing `Edit columns`
 
 You can rename a column by opening the drop-down menu at the top of the column that you would like to rename, and choosing 'Edit column' > 'Rename this column'. You will then be prompted to enter the new column name.
 
@@ -30,30 +26,33 @@ Once you have sorted the data, a new `Sort` drop-down menu will be displayed.
 
 Unlike in Excel, 'Sorts' in OpenRefine are temporary - that is, if you remove the `Sort`, the data will go back to its original 'unordered' state. The 'Sort' drop-down menu lets you amend the existing sort (e.g., reverse the sort order), remove existing sorts, and/or make sorts permanent.
 
-You can sort on multiple columns at the same time by adding another sorted column (in the same way).
+## Global editing (all columns)
 
-> ## Organizing for more cleanup
+You may choose to perform transformations and edits in all columns at once for a faster clean-up by clicking the menu in the very first column of the dataset `ALL`. If you choose so, your chances will be apllied across all columns. If you are willing to remove a few columns and reorganize them, you should consider this feature to have a global view of the dataset.
+
+> ## Organizing for more cleanup (DOAJ_big)
 >
-> Let's get rid of a column we don't need ('Archiving information URL'), push the
-> remaining two URL columns to the right, and re-arrange some other columns.
-> This will help us work a little
-> faster.
+> Let's get rid of some columns we don't need. This will help us work a little faster.
 >
-> Aim for this order:
+> We will only keep 11 columns to this dataset. Aim for this order:
 >
 > * Journal title
 > * Alternative title
 > * Keywords
-> * Subjects
-> * Added on Date
+> * Subjects 
+> * Publisher
+> * Country of Publisher
+> * APC amount
+> * Journal article processing charges (APCs)
+> * Currency
 > * Most Recent Article Added
+> * Permanent Articles Identifiers
+> * Journal license
 >
 > > ## Solution
 > >
-> > To reorder a column, use the dropdown menu to see the list of tools under `Edit column`. All the functions you need are in the 'Edit column' menu.
+> > Instead of using the edit columns menu one by one
 > > ![The Edit columns menu](../assets/img/edit_columns.png)
-> > 1. Remove 'Archiving information URL' by selecting `Remove this column`.
-> > 2. Move 'Journal URL' and 'Download statistics information URL' by selecting `Move column to end`.
-> > 3. Sort columns in the order suggested by using `Move column left` or `Move column right`.
+> > Select ALL in the first column and  
 > {: .solution}
 {: .challenge}
