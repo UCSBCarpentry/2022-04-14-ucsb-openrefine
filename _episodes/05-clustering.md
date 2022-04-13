@@ -67,6 +67,6 @@ For each cluster, you have the option of 'merging' the values together - that is
 >
 > > ## Solution
 > >
-> > You may perform a text facet, find and include only journals with 'United States' value, however, if performing a `text filter` shpuld save you some time. By filtering results to US cases only, you will have 838 records.
+> > You may perform a text facet, find and include only journals with 'United States' value, however, if performing a `text filter` should save you some time. By filtering results to US cases only, you will have 838 records.
 > {: .solution}
 {: .challenge}
