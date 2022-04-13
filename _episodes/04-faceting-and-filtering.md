@@ -41,17 +41,17 @@ You can also `invert` the filter to show all records which do not match your sel
 >5. Include a value and then look at top to invert inclusion.
 {: .checklist}
 
->## Which licences are used for articles in this file?
+>## Which `journal licences` are present in this file?
 > Use a `text facet` for the `licence` column and answer these questions:
 >
->1. What is the most common Licence in the file?
->2. How many articles in the file don't have a licence assigned?
+>1. What is the most common licence used by the journals represented in the file?
+>2. How many records in the file don't have a licence assigned?
 >
 >>## Solution
 >>1. Create a facet for the 'Licence' column
 >>2. Sort values by `count`
 >>3. What is the most common Licence in the file? Answer: `CC BY`
->>4. How many articles in the file don't have a licence assigned? Answer: **6**
+>>4. How many articles in the file don't have a licence assigned? Answer: **1**
 >{: .solution}
 {: .challenge}
 
