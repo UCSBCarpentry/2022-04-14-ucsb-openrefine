@@ -48,7 +48,7 @@ generates a boolean value of either 'true' or 'false' depending on whether the c
 
 Such tests can be combined with other GREL expressions to create more complex transformations. For example, to carry out a further transformation only if a test is successful. The GREL transformation ```if(value.contains("test"),"Test data",value)``` replaces a cell value with the words "Test data" only *if* the value in the cell contains the string "test" anywhere.
 
->## Find Reversed Author Names
+>## Find Reversed Author Names (DOAJ_small)
 >In this exercise we are going to use the Boolean data type.
 >If you look at the Authors column, you can see that most of the author names are written in the natural order. However, a few have been reversed to put the family name first.
 >
