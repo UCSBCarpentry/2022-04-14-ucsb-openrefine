@@ -36,10 +36,10 @@ For each cluster, you have the option of 'merging' the values together - that is
 >4. Try changing the clustering method being used - which ones work well?
 {: .challenge}
 
->## Challenge: Clean up 2 variables (`DOAJ_big`)
+>## Challenge: Reconciling choices (`DOAJ_big`)
 >
 > Let's clean up a bit the larger dataset, the `DOAJ_big` file.
-> * You can also eliminate redundant values in the 'Permanent article identifiers' column. How few of these values can you get to?
+> * You can manually eliminate redundant values in the 'Permanent article identifiers' column. How few of these values can you get to?
 > * There are several publishers that appear to be the same organization. Combine them. How many publishers did you start with? How many are left after cleaning?
 >
 > > ## Solution
@@ -49,9 +49,8 @@ For each cluster, you have the option of 'merging' the values together - that is
 > > Slide over to 'Permanent article identifiers' column, and create a text facet.  
 > > 
 > > You could try to Cluster these, but they are too self-similar. You will need to edit the values.
-> > If you scroll
-> > through the 35 choices, you should see at least 3 that you can safely combine. Update those 
-> > by editing one of the facets to match another. (DOI, PMCID, PMID; the two UDC's;). You should 
+> > If you scroll through the 35 choices, you should see at least 3 that you can safely combine. Update those 
+> > by editing one of the facets to match another. (DOI, PMCID, PMID; the two UDC's). You should 
 > > get down to 32 choices at the most.  You could go lower if you have the domain knowledge necessary 
 > > to combine more of the values.
 > > 
