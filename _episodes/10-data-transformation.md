@@ -29,7 +29,7 @@ Understanding data types and regular expressions will help you write more comple
 ### Dates and Numbers
 So far we've been looking only at 'String' type data. Much of the time it is possible to treat numbers and dates as strings. For example in the Date column we have the date of publication represented as a String. However, some operations and transformations only work on 'number' or 'date' type operations. The simplest example is sorting values in numeric or date order. To carry out these functions we need to convert the values to a date or number first.
 
->## Reformat the Date
+>## Reformat the Date (DOAJ_small)
 >1. Make sure you remove all Facets and Filters
 >2. On the Date column use the dropdown menu to select ```Edit cells -> Transform```
 >2. In the 'Expression' box type the GREL expression ```value.toDate("dd/MM/yyyy")``` and press OK.
