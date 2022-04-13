@@ -36,9 +36,9 @@ Next to the 'Preview' option are options to view:
 >Use Facets and the GREL expression ```value.replace()``` to replace the commas by semi-colons
 >1. Click the dropdown menu on the 'Keywords' column
 >2. Choose ```Edit cells->Transform...```
->3. In the Expression box type ```value.replace(",",";")```
->4. In the Preview pane you can see what the effect of running this will be
->5. Click ```OK```
+>3. In the Expression box type ```value.replace(",",";")```. This expression tells OpenRefine to replace the comma by a semi-colon.
+>4. In the Preview pane you can see what the effect of running this will be.
+>5. Click ```OK``` and pay attention to the notification indicating the number of transformations performed. 
 {: .checklist}
 
 >## Challenge
