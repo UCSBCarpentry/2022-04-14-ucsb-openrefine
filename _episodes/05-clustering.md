@@ -48,16 +48,9 @@ For each cluster, you have the option of 'merging' the values together - that is
 > >
 > > ### Combine publishers
 > > 
-> > When you start, you should see 6,983 distinct publishers.
-> > Click the 'Cluster' button, and you will see several publishers that appear to be
-> > duplicates.  Let's paint with a broad brush, and assume that we can lump in the
-> > Ljubljana filozoske fakulty with their arts faculty. We will accept all of OpenRefine's
-> > other suggestions.
-> >
-> > If there were fuzzier matches, you could adjust the sliders on each cluster to exclude outlyers.
-> > 
-> > After accepting the Cluster recommendations, there should now be 6,853 distinct publishers.
-> >
+> > When you start, by performing a text facet you should see 6,983 distinct publishers.
+> > Going through all the choices individually to spot opportunities to reconcile data input can be very tedious. But OpenRefine has a powerful feature to make this task much easier. Click 'Edit cells', then choose 'Cluster and edit', and you will see several publishers that appear to be the same, but with small variations in the way they were recorded. Let's say you have reviewed all the suggestions and agree with them. You may `select all` and then, `merge selected & re-cluster`. After accepting the recommendations, note that the number of choices for publishers went down to 6,844.
+
 > > ### Combine persistant identifiers
 > > 
 > > Slide over to 'Permanent article identifiers' column, and create a text facet.  
