@@ -48,7 +48,7 @@ value.split(",").sort().join(",")
 ```
 Taking the above example again, this would result in a string with the days of the week in alphabetical order, listed with commas between each day.
 
->## Reverse author names
+>## Reverse author names (DOAJ_small)
 >You may already have done the boolean exercise and have a facet containing the names in natural order. In this case, select the 'true' facet and start with the step **"1. On the ```Authors``` column use..."**
 >
 >In this exercise we are going to use both the Boolean and Array data types.
