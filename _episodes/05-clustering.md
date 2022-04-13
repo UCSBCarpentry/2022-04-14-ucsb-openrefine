@@ -39,18 +39,11 @@ For each cluster, you have the option of 'merging' the values together - that is
 >## Challenge: Clean up 2 variables (`DOAJ_big`)
 >
 > Let's clean up a bit the larger dataset, the `DOAJ_big` file.
-> There are several publishers that appear to be the same organization. Combine them.
-> * How many publishers did you start with? How many are left after cleaning?
-> * You can also eliminate redundant values in the 'Permanent article identifiers' column.
-> How few of these values can you get to?
+> * You can also eliminate redundant values in the 'Permanent article identifiers' column. How few of these values can you get to?
+> * There are several publishers that appear to be the same organization. Combine them. How many publishers did you start with? How many are left after cleaning?
 >
 > > ## Solution
 > >
-> > ### Combine publishers
-> > 
-> > When you start, by performing a text facet you should see 6,983 distinct publishers.
-> > Going through all the choices individually to spot opportunities to reconcile data input can be very tedious. But OpenRefine has a powerful feature to make this task much easier. Click 'Edit cells', then choose 'Cluster and edit', and you will see several publishers that appear to be the same, but with small variations in the way they were recorded. Let's say you have reviewed all the suggestions and agree with them. You may `select all` and then, `merge selected & re-cluster`. After accepting the recommendations, note that the number of choices for publishers went down to 6,844.
-
 > > ### Combine persistant identifiers
 > > 
 > > Slide over to 'Permanent article identifiers' column, and create a text facet.  
@@ -61,6 +54,11 @@ For each cluster, you have the option of 'merging' the values together - that is
 > > by editing one of the facets to match another. (DOI, PMCID, PMID; the two UDC's;). You should 
 > > get down to 32 choices at the most.  You could go lower if you have the domain knowledge necessary 
 > > to combine more of the values.
+> > 
+> > ### Combine publishers
+> > 
+> > When you start, by performing a text facet you should see 6,983 distinct publishers.
+> > Going through all the choices individually to spot opportunities to reconcile data input can be very tedious. But OpenRefine has a powerful feature to make this task much easier. Click 'Edit cells', then choose 'Cluster and edit', and you will see several publishers that appear to be the same, but with small variations in the way they were recorded. Let's say you have reviewed all the suggestions and agree with them. You may `select all` and then, `merge selected & re-cluster`. After accepting the recommendations, note that the number of choices for publishers went down to 6,844.
 > >
 > {: .solution}
 {: .challenge}
