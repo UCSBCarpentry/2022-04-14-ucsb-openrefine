@@ -132,8 +132,7 @@ and save it in the same directory as the other data file (DOAJ_small.csv).
 * 'Choose Files' and navigate to the DOAJ_big.csv file.
 * Use the default options to create a new project.
 
-
-## Inspecting your new dataset (DOAJ_big)
+>## Inspecting your new dataset (DOAJ_big)
 >
 > Answer the following questions about your new, larger, dataset:
 >* How many records are in the dataset?
