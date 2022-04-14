@@ -42,6 +42,7 @@ You may choose to perform transformations and edits in all columns at once for a
 > * Subjects 
 > * Publisher
 > * Society or Institution
+> * Added on Date
 > * Country of Publisher
 > * APC amount
 > * Currency
