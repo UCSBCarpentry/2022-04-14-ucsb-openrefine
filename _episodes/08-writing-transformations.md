@@ -55,16 +55,17 @@ Next to the 'Preview' option are options to view:
 >>4. Use de function split multi-valued cells using the semi-colons `;` as the separator
 >>5. Apply common transformations to remove unwanted spaces so you won't have similar values unclustered.
 >>6. Sort the facet by `count`
->>7. Which subject has more counts? Answer: **Agriculture** (if you are using the US subset). Medicine if using the whole dataset.
+>>7. Which subject has more counts? Answer: **Agriculture** (if you are using the US subset), or **Medicine** if using the whole dataset.
 >{: .solution}
 {: .challenge}
 
 ## Filling Out Blank Cells
-Another useful GREL expression is the conditional function `if`. Let's say you want to fill out all blanks from the `Digital Archiving` column with N/A (non-applicable). In that case, you will can type the following expression in the transformation pane:
-if(isBlank(value.trim()), "N/A", value). Important tip: You can also apply this transformation to as many columns you wish, by selecting the first column `All>Transform` typing the expression, then `ok`, select the columns and `ok`.
+Another useful GREL expression is the conditional function `if`. Let's say you want to fill out all blanks from the `Digital Archiving` column with N/A (non-applicable). In that case, you will can type the following expression in the transformation pane: if(value==blank,"new",value) and replace 
+"new" by N/A. 
+*Important tip: You can also apply this transformation to as many columns you wish, by selecting the first column `All>Transform` typing the expression, then `ok`, select the columns and `ok`.*
 
 >## Challenge
->Now, try it yourself with the `APC amount` column. What would be an alternative path to perform the same transformation?
+> What would be an alternative path to perform the same transformation?
 >>## Solution 
 >>`Perform Text Facet > Edit Blanks`
 >{: .solution}
