@@ -51,8 +51,6 @@ You may choose to perform transformations and edits in all columns at once for a
 >
 > > ## Solution
 > >
-> > Instead of using the edit columns menu one by one
-> > ![The Edit columns menu](../assets/img/edit_columns.png)
-> > Select ALL in the first column and  
+> > Instead of using the edit columns menu one by one. Select `ALL` in the first column, then, `Edit columns > Reorder/remove columns...`. Drag the ones you would like to remove to the right pane and re-order the ones you would like to keep. 
 > {: .solution}
 {: .challenge}
