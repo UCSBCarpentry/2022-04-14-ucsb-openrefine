@@ -34,7 +34,7 @@ You may choose to perform transformations and edits in all columns at once for a
 >
 > Let's get rid of some columns we don't need. This will help us work a little faster.
 >
-> We will only keep 12 columns to this dataset. Aim for this order:
+> We will only keep 13 columns to this dataset. Aim for this order:
 >
 > * Journal title
 > * Alternative title
