@@ -51,7 +51,7 @@ Examples of some of these common transformations are given in the table below:
 | To empty string 	| Changes the cell format to empty string. 	|
 
 
->## Removing Unnecessary Spaces Without Inspecting All Facet Choices
+>## Removing Unnecessary Spaces Without Inspecting All Facet Choices (DOAJ_big)
 >1. Create a text facet on the "Society or Institution" Column
 >2. Note that you have over 300 choices listed and would take too much time to inspect each of them
 >3. On the column use the dropdown menu to select ```Edit cells->Common transforms->Trim leading and trailing whitespace```
@@ -60,7 +60,7 @@ Examples of some of these common transformations are given in the table below:
 >6. Look at the facet now - has it changed at all or the number remains the same? Do you know why?
 {: .checklist}
 
->## Transforming Text Facet into Dates
+>## Transforming Text Facet into Dates (DOAJ_big)
 >By default, in `OpenRefine` all columns are identified as text. So if you want to create a date facet you will have to first transform those values into 'dates'. 
 >1. Click on the column `Added on Date` dropdown menu, then `Edit Cells>Common Transforms>To Date` (Note that values will be green, demonstrating the sucessfull transformation to the desired data format)
 >2. Now, perform a `Timeline Facet`
