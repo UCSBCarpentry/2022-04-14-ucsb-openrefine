@@ -41,7 +41,7 @@ Next to the 'Preview' option are options to view:
 >5. Click ```OK``` and pay attention to the notification indicating the number of transformations performed. 
 {: .checklist}
 
->## Challenge
+>## Challenge (DOAJ_big)
 >What is the most frequent individual `Subject` among the journals listed in the dataset?
 >Use `facetting`, perform `transformation` and `common transformation`, as well as the `splitting` function to come up with a solution. Tip: we do not want to differentiate subject levels. Take a close look at the different separators present in this column and think about how you can remove them.
 >>## Solution
@@ -55,7 +55,7 @@ Next to the 'Preview' option are options to view:
 >>4. Use de function split multi-valued cells using the semi-colons `;` as the separator
 >>5. Apply common transformations to remove unwanted spaces so you won't have similar values unclustered.
 >>6. Sort the facet by `count`
->>7. Which subject has more counts? Answer: **Medicine**
+>>7. Which subject has more counts? Answer: **Agriculture** (if you are using the US subset). Medicine if using the whole dataset.
 >{: .solution}
 {: .challenge}
 
