@@ -55,7 +55,7 @@ Next to the 'Preview' option are options to view:
 >>4. Use de function split multi-valued cells using the semi-colons `;` as the separator
 >>5. Apply common transformations to remove unwanted spaces so you won't have similar values unclustered.
 >>6. Sort the facet by `count`
->>7. Which subject has more counts? Answer: **Agriculture** if you are using the US subset, or **Medicine** if your are using the whole dataset.
+>>7. Which subject has more counts? Answer: **Medicine**
 >{: .solution}
 {: .challenge}
 
